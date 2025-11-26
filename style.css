@@ -12,9 +12,9 @@
 .navbar {
     color: white;
     text-align: center;
-    padding-top: 17px;
+    padding-top: 20px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
     position: relative;
     float: left;
     width: 260px;
@@ -57,14 +57,14 @@ body {
 
 .background1grey {
     background-color: #ECF0F1;
-    height: 400px;
+    height: 350px;
     width: 100%;
     margin-top: 0px;
 }
 
 .Titelhp {
     margin-top: 0;
-    padding-top: 100px;
+    padding-top: 75px;
     font-size: 85px;
     margin-left: 480px;
 }
@@ -84,7 +84,7 @@ Placeholder Sportarten
 */
 
 .contsportex1 {
-    top: 800px;
+    top: 700px;
     border-radius: 25px;
     background: #ECF0F1;
     padding: 20px;
@@ -102,14 +102,15 @@ Placeholder Sportarten
     margin-left: 3px;
     top: 200px;
     position: absolute;
+    margin-left: 28px;
 }
 
 .imgsportex {
-    height: 95%;
+    height: 60%;
     width: auto;
     position: absolute;
-    right: -22px; 
-    top: 0px;
+    right: 22px; 
+    top: 30px;
 }
 
 
@@ -117,7 +118,7 @@ Placeholder Sportarten
 
 
 .contsportex2 {
-    top: 800px;
+    top: 700px;
     border-radius: 25px;
     background: #ECF0F1;
     padding: 20px;
@@ -136,21 +137,22 @@ Placeholder Sportarten
     margin-left: 3px;
     top: 200px;
     position: absolute;
+    margin-left: 25px;
 }
 
 .imgsportex2 {
-    height: 95%;
+    height: 55%;
     width: auto;
     position: absolute;
-    right: -22px; 
-    top: 0px;
+    right: 25px; 
+    top: 35px;
 }
 
 
 
 
 .contsportex3 {
-    top: 800px;
+    top: 700px;
     border-radius: 25px;
     background: #ECF0F1;
     padding: 20px;
@@ -168,21 +170,22 @@ Placeholder Sportarten
     margin-left: 3px;
     top: 200px;
     position: absolute;
+    margin-left: 23px;
 }
 
 .imgsportex3 {
-    height: 95%;
+    height: 65%;
     width: auto;
     position: absolute;
-    right: -22px; 
-    top: 0px;
+    right: 19px; 
+    top: 20px;
 }
 
 
 
 
 .contsportex4 {
-    top: 800px;
+    top: 700px;
     border-radius: 25px;
     background: #ECF0F1;
     padding: 20px;
@@ -200,14 +203,15 @@ Placeholder Sportarten
     margin-left: 3px;
     top: 200px;
     position: absolute;
+    margin-left: 22px;
 }
 
 .imgsportex4 {
-    height: 95%;
+    height: 60%;
     width: auto;
     position: absolute;
-    right: -22px; 
-    top: 0px;
+    right: 25px; 
+    top: 25px;
 }
 
 /*
@@ -215,3 +219,257 @@ Placeholder Sportarten
 TOP 3 Sportarten 
 ==========================
 */
+
+.titelt4 {
+    margin-top: 120px;
+    font-size: 45px;
+    text-align:center;
+}
+
+
+.background2grey {
+    background-color: #5c6064;
+    height: 320px;
+    width: 60%;
+    top: 1150px;
+    position: absolute;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+/* Import Mukta font from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+
+
+
+/* Base button styles */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* "Learn More" button specific styles */
+button.learn-more {
+  width: 12rem;
+  height: auto;
+  left: 150px;
+  top: 20px;
+}
+
+/* Circular background styles */
+button.learn-more .circle {
+  transition: all 0.45s;
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #FF6600;
+  border-radius: 1.625rem;
+}
+
+/* Icon base styles */
+button.learn-more .circle .icon {
+  transition: all 0.45s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+/* Arrow icon styles */
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s;
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+/* Arrow icon before pseudo-element (creates arrowhead) */
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+/* Button text styles */
+button.learn-more .button-text {
+  transition: all 0.45s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #FF6600;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Hover effects for the button */
+button:hover .circle {
+  width: 100%;
+  box-shadow: 0 0 20px tomato;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+
+
+.contsportex12 {
+    top: 100px;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 200px;
+}
+
+
+.sportex2 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+    margin-left: 28px;
+}
+
+.imgsportex2 {
+    height: 60%;
+    width: auto;
+    position: absolute;
+    right: 22px; 
+    top: 30px;
+}
+
+
+
+
+
+.contsportex22 {
+    top: 100px;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 500px;
+}
+
+
+
+.sportex22 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+.imgsportex22 {
+    height: 55%;
+    width: auto;
+    position: absolute;
+    right: 25px; 
+    top: 35px;
+}
+
+
+
+
+.contsportex32 {
+    top: 100px;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 800px;
+}
+
+
+.sportex32 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+    margin-left: 23px;
+}
+
+.imgsportex32 {
+    height: 65%;
+    width: auto;
+    position: absolute;
+    right: 19px; 
+    top: 20px;
+}
+
+
+
+
+.contsportex42 {
+    top: 1%;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 1100px;
+}
+
+
+.sportex42 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+    margin-left: 22px;
+}
+
+.imgsportex42 {
+    height: 60%;
+    width: auto;
+    position: absolute;
+    right: 25px; 
+    top: 25px;
+}
