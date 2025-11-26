@@ -1,0 +1,217 @@
+
+/* Navbar */
+.Navcontainer {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+}
+
+.navbar {
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    float: left;
+    width: 260px;
+    left: 650px;
+}
+
+.navbar:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.titelnavcont {
+    width: 100%;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+
+.titelnav {
+    color: white;
+    margin-left: 210px;
+    top: 0px;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+.imgtitelnav {
+    height: 88px;
+    width: auto;
+    position: absolute;
+    left: 125px; 
+    top: -8px;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.background1grey {
+    background-color: #ECF0F1;
+    height: 400px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.Titelhp {
+    margin-top: 0;
+    padding-top: 100px;
+    font-size: 85px;
+    margin-left: 480px;
+}
+
+.Titelslogan {
+    font-size: 45px;
+    margin-left: 600px;
+    color: #ff6600;
+    margin-top: -35px;
+}
+
+
+/* 
+==========================
+Placeholder Sportarten
+==========================
+*/
+
+.contsportex1 {
+    top: 800px;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 200px;
+}
+
+
+.sportex {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+}
+
+.imgsportex {
+    height: 95%;
+    width: auto;
+    position: absolute;
+    right: -22px; 
+    top: 0px;
+}
+
+
+
+
+
+.contsportex2 {
+    top: 800px;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 500px;
+}
+
+
+
+.sportex2 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+}
+
+.imgsportex2 {
+    height: 95%;
+    width: auto;
+    position: absolute;
+    right: -22px; 
+    top: 0px;
+}
+
+
+
+
+.contsportex3 {
+    top: 800px;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 800px;
+}
+
+
+.sportex3 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+}
+
+.imgsportex3 {
+    height: 95%;
+    width: auto;
+    position: absolute;
+    right: -22px; 
+    top: 0px;
+}
+
+
+
+
+.contsportex4 {
+    top: 800px;
+    border-radius: 25px;
+    background: #ECF0F1;
+    padding: 20px;
+    width: 150px;
+    height: 200px;  
+    position: absolute;
+    left: 1100px;
+}
+
+
+.sportex4 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 3px;
+    top: 200px;
+    position: absolute;
+}
+
+.imgsportex4 {
+    height: 95%;
+    width: auto;
+    position: absolute;
+    right: -22px; 
+    top: 0px;
+}
+
+/*
+==========================
+TOP 3 Sportarten 
+==========================
+*/
