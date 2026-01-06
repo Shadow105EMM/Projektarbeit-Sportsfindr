@@ -4,7 +4,7 @@
     overflow: hidden;
     top: 0;
     left: 0;
-    height: 70px;
+    height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -38,19 +38,17 @@
 
 .titelnav {
     color: white;
-    position: absolute;
+    position: relative;
     left: 8%;
-    top: 8px;
-    font-size: 2.5vw;
-    margin: 0;
+    padding: 0 2%;
+    font-size: 2.2vw;
 }
 
 .imgtitelnav {
     width: 5%;
     height: auto;
-    position: absolute;
-    left: 2%;
-    top: -2;
+    position: relative;
+    padding: 0 2%;
 }
 
 body {
@@ -60,23 +58,23 @@ body {
 
 .background1grey {
     background-color: #ECF0F1;
-    height: 350px;
+    height: 40vh;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0%;
 }
 
 .Titelhp {
-    margin-top: 0;
-    padding-top: 75px;
-    font-size: 85px;
-    margin-left: 480px;
+    margin-top: 0%;
+    padding-top: 5%;
+    font-size: 500%;
+    margin-left: 30%;
 }
 
 .Titelslogan {
-    font-size: 45px;
-    margin-left: 600px;
+    font-size: 280%;
+    margin-left: 43%;
     color: #ff6600;
-    margin-top: -35px;
+    margin-top: -2%;
 }
 
 
@@ -87,17 +85,17 @@ TOP 3 Sportarten
 */
 
 .titelt4 {
-    margin-top: 120px;
-    font-size: 45px;
+    margin-top: 8%;
+    font-size: 300%;
     text-align:center;
 }
 
 
 .background2grey {
     background-color: #5c6064;
-    height: 320px;
+    height: 38%;
     width: 60%;
-    top: 1150px;
+    top: 125%;
     position: absolute;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -125,10 +123,10 @@ button {
 
 /* "Learn More" button specific styles */
 button.learn-more {
-  width: 12rem;
+  width: 20vw;
   height: auto;
-  left: 150px;
-  top: 20px;
+  left: 16%;
+  top: 4%;
 }
 
 /* Circular background styles */
@@ -195,7 +193,7 @@ button.learn-more .button-text {
 /* Hover effects for the button */
 button:hover .circle {
   width: 100%;
-  box-shadow: 0 0 20px tomato;
+  box-shadow: 0 0 100% tomato;
 }
 
 button:hover .circle .icon.arrow {
@@ -218,28 +216,27 @@ button:hover .button-text {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    padding: 40px 4%;
+    padding: 2% 4%;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 /* Generic card used for all sport tiles */
 .card {
-    border-radius: 25px;
+    border-radius: 10%;
     background: #ECF0F1;
-    padding: 20px;
+    padding: 2%;
     width: 22%;       /* scales with viewport */
-    min-width: 150px; /* prevents shrinking too small */
+    min-width: 5%; /* prevents shrinking too small */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
 }
 
 /* title and image inside card */
 .card-title {
-    font-size: 1.1rem;
+    font-size: 100%;
     color: black;
     text-align: center;
     margin: 0;
@@ -261,8 +258,7 @@ overflow-x:hidden;
     padding: 3% 0%;
     font-family: 'Play', sans-serif;
     text-align: center;
-    margin-top: 40%;
-    position: relative;
+    position: absolute;
     width: 100%;
 }
 
@@ -271,7 +267,7 @@ overflow-x:hidden;
     margin: 1% auto;
     padding: 0.6% 0;
     color: gray;
-    font-size: 0.8em;
+    font-size: 110%;
 }
 
 .footer .row a {
@@ -300,17 +296,19 @@ overflow-x:hidden;
     margin: 0 1%;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 200%) {
     .footer {
         text-align: center;
         padding: 5%;
     }
     .footer .row ul li {
         display: block;
-        margin: 10px 0;
+        margin: 3% 0;
         text-align: left;
     }
     .footer .row a i {
         margin: 0 1%;
     }
 }
+
+
