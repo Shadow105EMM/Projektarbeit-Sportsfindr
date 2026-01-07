@@ -1,107 +1,90 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <script src="myscripts.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sportsfindr</title>
-    <link rel="icon" href="Images/Copilot_20251016_103938.png" type="image/x-icon">
-    <!--Color: Orange: #FF6600, Dunkelgrau #5c6064, Hellgrau #ECF0F1, Weiss #FFFFFF-->
-    <style>
-    </style>
+     <link rel="icon" href="Images/Copilot_20260107_131232.png" type="image/x-icon">
 </head>
 <body>
-    <!--NAVBAR-->
-    <div class="Navcontainer">
-      <a class="navbar" href="Sportarten.html">Sportarten</a>
-      <a class="navbar" href="">Über uns</a>
-      <a class="navbar" href="">Impressum</a> 
-    </div>
+    <nav class="navbar">
+            <img src="Images/Copilot_20260107_131232.png" class="Logo" style="margin-left: 1vw;">
+            <div class="data-container">
+                <div id="menu-time" class="menu-data animate__animated ">
+                    <a class="a" href="Index.html" style="color: #4FB3A6;">Home</a>
+                    <a class="a" href="Sportarten.html" >Sportarten</a>
+                    <a class="a" href="">Über uns</a>
+                    <a class="a" href="">Impressum</a>
+                </div>
+                <a id="Menu-bar" onclick="menubar()"><i class="size-icon fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
 
-    <div class="titelnavcont">
-        <h1 class="titelnav">Sportsfindr</h1>
-        <img class="imgtitelnav" src="Images/Copilot_20251016_103938.png" alt="">
-    </div>
 
-    <div class="background1grey">
-        <h1 class="Titelhp">Sportsfindr     </h1>
-        <h2 class="Titelslogan">Finde deinen Sport</h2>
+    <div class="sloganbg">
+        <h1 class="slogan-title">Sportsfindr</h1>
+        <h2 class="slogan-subtitle">Finde deinen Sport</h2>
+        <button class="button-28" role="button" onclick="location.href='Sportarten.html'">Entdecken</button>
     </div>
     
-    <h1 class="titelt4">Top 4 beliebteste Sportarten</h1>
-
-    <!-- replaced absolute cards with responsive flex container -->
-	<div class="cards">
-		<div class="card">
+    <hr style="display: block;
+    margin: 5em 0;
+    padding: 0;
+    width: 100%;
+    background: #C5C6C7;">
+    
+    <div class="cards">
+		<a class="card" href="Fussball.html">
 			<b class="card-title">Fussball</b>
-			<img class="card-img" src="Images/fussball-platz.png" alt="">
-		</div>
-		<div class="card">
+            <div class="icon-wrapper">
+                <img class="card-img" src="Images/fussball-platz.png" alt="">
+            </div>
+		</a>
+		<a class="card" href="Hanball.html">
 			<b class="card-title">Handball</b>
-			<img class="card-img" src="Images/handball.png" alt="">
-		</div>
-		<div class="card">
+			<div class="icon-wrapper">
+                <img class="card-img" src="Images/handball.png" alt="">
+            </div>
+		</a>
+		<a class="card" href="Wandern.html">
 			<b class="card-title">Wandern</b>
-			<img class="card-img" src="Images/wanderer.png" alt="">
-		</div>
-		<div class="card">
+            <div class="icon-wrapper">
+                <img class="card-img" src="Images/wanderer.png" alt="">
+            </div>
+		</a>
+		<a class="card" href="Ski.html">
 			<b class="card-title">Skifahren</b>
-			<img class="card-img" src="Images/ski.png" alt="">
-		</div>
+            <div class="icon-wrapper">
+                <img class="card-img" src="Images/ski.png" alt="">
+            </div>
+		</a>
 	</div>
 
+     <footer class="footer-centered" role="contentinfo">
+        <div class="footer-centered__container">
 
 
-        
-
-	<div class="background2grey">
-            <h1 style="color: white; margin-top: 0;padding-top: 7%;font-size: 300%;margin-left: 16%;">Entdecke über </h1>
-            <h2 style="font-size: 150%;margin-left: 40%;color: #ff6600;margin-top: 1%;">10+ weitere Sportarten.</h2>
-            <!-- Animated "Learn More" button -->
-        <a href="Sportarten.html" style="text-decoration: none;">
-            <button class="learn-more">
-                <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Entdecken</span>
-            </button>
-        </a>
-    </div>
-
-<!--Urheberrechte von Icons Flaticon am Ende angeben. "Icons Flatikon von www.flaticon.com" -->
-
-<!--FONT AWESOME-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
-<footer>
-<div class="footer" style="top: 190%;">
-<div class="row">
-<a href="#"><i class=""></i></a>
-<a href="#"><i class=""></i></a>
-<a href="#"><i class=""></i></a>
-<a href="#"><i class=""></i></a>
-</div>
-
-<div class="row">
-<ul>
-<li><a href="#">Kontakt</a></li>
-<li><a href="#">Impressum</a></li>
-<li><a href="#">Über uns</a></li>
-<li><a href="index.html">Home</a></li>
-<li><a href="Sportarten.html">Sportarten</a></li>
-</ul>
-</div>
-
-<div class="row" style="text-align: center;">
-Copyright © 2025 Sportsfindr. Alle Reche vorbehalten. 
-</div>
-</div>
-</footer>
+            <!-- Navigation -->
+            <nav class="footer-centered__nav" aria-label="Main Footer Navigation">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Sportarten.html">Sportarten</a></li>
+                    <li><a href="#">Über uns</a></li>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
 
 
+            <!-- Copyright -->
+            <p class="footer-centered__copyright">
+                Copyright © 2025-2026 Sportsfindr. Alle Reche vorbehalten. 
+            </p>
+
+        </div>
+    </footer>
 
 </body>
 </html>
