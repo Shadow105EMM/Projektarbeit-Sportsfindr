@@ -472,35 +472,35 @@ body{
   .slogan span {
     display: block;           /* jede Zeile untereinander */
     font-weight: bold;
-    font-size: 2.5rem;        /* mittel-groß */
+    font-size: 2rem;        /* mittel-groß */
     line-height: 1.2;         /* etwas enger, damit nicht zu weit auseinander */
   }
 
   .slogan .oben {
     color: #2F7F8F;
-    transform: translateX(-30px);  /* 5px nach links verschieben */
+    transform: translateX(-25px);  /* 5px nach links verschieben */
   }
 
   .slogan .unten {
     color: #C5C6C7;
-    transform: translateX(30px);  /* 5px nach rechts verschieben */
+    transform: translateX(25px);  /* 5px nach rechts verschieben */
   }
 
   /* Responsive Schriftgrößen */
   @media (max-width: 1200px) {
     .slogan span {
-      font-size: 2.2rem;
+      font-size: 1.7rem;
     }
   }
 
   @media (max-width: 768px) {
     .slogan span {
-      font-size: 1.8rem;
+      font-size: 0.8rem;
     }
   }
 
   @media (max-width: 480px) {
     .slogan span {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
