@@ -665,6 +665,7 @@ body{
 .info-text-sport p {
     margin-bottom: 16px;
     line-height: 1.6;
+    width: 90%;
 }
 
 .info-können h3 {
