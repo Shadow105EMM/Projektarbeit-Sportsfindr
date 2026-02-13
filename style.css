@@ -646,8 +646,8 @@ body{
 }
 
 .info-text-sport {
-    width: 60%;
-    max-width: 850px;
+    width: 100%;
+    max-width: 1750px;
     padding: 0 0;
     color: #C5C6C7;
     font-size: clamp(1rem, 1.6vw, 1.2rem);
@@ -688,7 +688,7 @@ body{
 .sport-bg {
   background: linear-gradient(#1F2833, #0B0C10);
     top: 0;  
-    min-height: 80vh;
+    min-height: 50vh;
     width: 100%;
     position: relative;
     margin: 0 auto;
