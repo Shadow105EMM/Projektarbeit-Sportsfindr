@@ -200,6 +200,7 @@ body{
     box-sizing: border-box;
     margin-top: clamp(3vh, 5vw, 6%);
     align-items: start;
+    margin-top: 15vh;
 }
 
 /* Generic card used for all sport tiles */
@@ -694,4 +695,15 @@ body{
     position: relative;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.Vereine h3{
+  font-weight: bold;
+  color: #2F7F8F;
+  margin-bottom: 5px;
+}
+
+.Vereine a {
+  color: #C5C6C7;
+  
 }
